@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .partition {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 100%;
+  }
+  
+  .editor {
+    /* height: 100%; */
+    width: 45vw;
+    flex: 2;
+  }
+  
+  .output {
+    /* margin-left: 2px; */
+    border-left: solid;
+    border-width: 1px;
+    height: 100vh;
+    width: 100vw;
+    flex: 2;
+  }
+  
+  /* .editor {
+    background-color: hsl(225, 6%, 25%);
+  } */
+  
+  .editor_title {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(225, 20%, 28%);
+    color: white;
+    font-family:cursive;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    /*border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;  */
+  }
+  
+  .CodeMirror {
+    height: 100vh !important;
+    font-size: 15px;
+  }
+  
+  .code-mirror-wrapper {
+    height: 100%;
+    flex-grow: 1;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    overflow: hidden;
+  }
+
+  .footer{
+      display: flex;
+      border-top:solid;
+      position: fixed;
+      bottom: 30px;
+      left: 12px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      cursor: pointer;
+  }
+
+  .footer_button {
+      margin-top: 4px;
+      display: flex;
+      flex-direction: row;
+  }
+
+
+
+
+
+
+
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    /* -webkit-box-shadow: inset 0 0 6px rgba(177,177,177,0.5);  */
+    background:rgb(177, 177, 177);
+  }
