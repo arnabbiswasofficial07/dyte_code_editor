@@ -2,7 +2,12 @@
 ## This is a code editor created using React 
 
 The preview of the site -
+
 #### http://arnabbiswasofficial07.github.io/codepencil
+![](https://media.giphy.com/media/aTEr274qBxB5IrqnRd/giphy.gif)
+
+
+
 
 <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
 <img alt="Material UI" src="https://img.shields.io/badge/materialui-%230081CB.svg?style=for-the-badge&logo=material-ui&logoColor=white"/>
